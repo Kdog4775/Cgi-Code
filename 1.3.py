@@ -122,10 +122,6 @@ for url in urls:
    #writing the data into our CSV file
    writer.writerow([company.encode('utf-8'), price.encode('utf-8'), change.encode('utf-8')])
 
-exit_button = ttk.Button(
-    root,
-    text='Exit',
-    command=lambda: root.quit())
 
 file.close()
 
